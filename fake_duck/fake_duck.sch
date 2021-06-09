@@ -237,8 +237,6 @@ $EndComp
 Wire Wire Line
 	3450 6600 3500 6600
 Wire Wire Line
-	3500 6600 3500 6700
-Wire Wire Line
 	3250 6800 3250 6900
 Wire Wire Line
 	3250 6900 3300 6900
@@ -253,8 +251,6 @@ F 3 "~" H 3250 7050 50  0001 C CNN
 	1    3250 7050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3250 7200 3550 7200
 Wire Wire Line
 	3500 6600 3550 6600
 Connection ~ 3500 6600
@@ -651,7 +647,7 @@ Text GLabel 3550 5400 2    50   Input ~ 0
 C1
 Text GLabel 3550 6300 2    50   Input ~ 0
 C1
-Text GLabel 3550 7200 2    50   Input ~ 0
+Text GLabel 3250 7200 2    50   Input ~ 0
 C1
 Text GLabel 4450 4500 2    50   Input ~ 0
 C2
@@ -702,20 +698,18 @@ Wire Wire Line
 $Comp
 L Device:D D_41
 U 1 1 60E5F3E0
-P 5800 4350
-F 0 "D_41" V 5846 4270 50  0000 R CNN
-F 1 "D" V 5755 4270 50  0000 R CNN
-F 2 "keebio-parts:Diode_Long" H 5800 4350 50  0001 C CNN
-F 3 "~" H 5800 4350 50  0001 C CNN
-	1    5800 4350
-	0    1    1    0   
+P 6250 3900
+F 0 "D_41" V 6296 3820 50  0000 R CNN
+F 1 "D" V 6205 3820 50  0000 R CNN
+F 2 "keebio-parts:Diode_Long" H 6250 3900 50  0001 C CNN
+F 3 "~" H 6250 3900 50  0001 C CNN
+	1    6250 3900
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5800 4500 6100 4500
 Wire Wire Line
 	6050 3900 6100 3900
 Connection ~ 6050 3900
-Text GLabel 6100 3900 2    50   Input ~ 0
+Text GLabel 6400 3900 2    50   Input ~ 0
 R1
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_42_0
@@ -750,21 +744,15 @@ Wire Wire Line
 $Comp
 L Device:D D_42
 U 1 1 60E5F3FB
-P 5800 5250
-F 0 "D_42" V 5846 5170 50  0000 R CNN
-F 1 "D" V 5755 5170 50  0000 R CNN
-F 2 "keebio-parts:Diode_Long" H 5800 5250 50  0001 C CNN
-F 3 "~" H 5800 5250 50  0001 C CNN
-	1    5800 5250
-	0    1    1    0   
+P 6200 4800
+F 0 "D_42" V 6246 4720 50  0000 R CNN
+F 1 "D" V 6155 4720 50  0000 R CNN
+F 2 "keebio-parts:Diode_Long" H 6200 4800 50  0001 C CNN
+F 3 "~" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	-1   0    0    1   
 $EndComp
-Connection ~ 5800 5100
-Wire Wire Line
-	5800 5400 6100 5400
-Wire Wire Line
-	6050 4800 6100 4800
-Connection ~ 6050 4800
-Text GLabel 6100 4800 2    50   Input ~ 0
+Text GLabel 6350 4800 2    50   Input ~ 0
 R2
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_43_0
@@ -799,20 +787,15 @@ Wire Wire Line
 $Comp
 L Device:D D_43
 U 1 1 60E5F416
-P 5800 6150
-F 0 "D_43" V 5846 6070 50  0000 R CNN
-F 1 "D" V 5755 6070 50  0000 R CNN
-F 2 "keebio-parts:Diode_Long" H 5800 6150 50  0001 C CNN
-F 3 "~" H 5800 6150 50  0001 C CNN
-	1    5800 6150
-	0    1    1    0   
+P 6200 5700
+F 0 "D_43" V 6246 5620 50  0000 R CNN
+F 1 "D" V 6155 5620 50  0000 R CNN
+F 2 "keebio-parts:Diode_Long" H 6200 5700 50  0001 C CNN
+F 3 "~" H 6200 5700 50  0001 C CNN
+	1    6200 5700
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5800 6300 6100 6300
-Wire Wire Line
-	6050 5700 6100 5700
-Connection ~ 6050 5700
-Text GLabel 6100 5700 2    50   Input ~ 0
+Text GLabel 6350 5700 2    50   Input ~ 0
 R3
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_44_0
@@ -847,21 +830,15 @@ Wire Wire Line
 $Comp
 L Device:D D_44
 U 1 1 60E5F431
-P 5800 7050
-F 0 "D_44" V 5846 6970 50  0000 R CNN
-F 1 "D" V 5755 6970 50  0000 R CNN
-F 2 "keebio-parts:Diode_Long" H 5800 7050 50  0001 C CNN
-F 3 "~" H 5800 7050 50  0001 C CNN
-	1    5800 7050
-	0    1    1    0   
+P 6200 6600
+F 0 "D_44" V 6246 6520 50  0000 R CNN
+F 1 "D" V 6155 6520 50  0000 R CNN
+F 2 "keebio-parts:Diode_Long" H 6200 6600 50  0001 C CNN
+F 3 "~" H 6200 6600 50  0001 C CNN
+	1    6200 6600
+	-1   0    0    1   
 $EndComp
-Connection ~ 5800 6900
-Wire Wire Line
-	5800 7200 6100 7200
-Wire Wire Line
-	6050 6600 6100 6600
-Connection ~ 6050 6600
-Text GLabel 6100 6600 2    50   Input ~ 0
+Text GLabel 6350 6600 2    50   Input ~ 0
 R4
 $Comp
 L LED:SK6812MINI LED_3
@@ -1304,19 +1281,17 @@ C0
 $Comp
 L Device:D D_1
 U 1 1 61102FF2
-P 1800 4350
-F 0 "D_1" V 1846 4270 50  0000 R CNN
-F 1 "D" V 1755 4270 50  0000 R CNN
-F 2 "keebio-parts:Diode_Long" H 1800 4350 50  0001 C CNN
-F 3 "~" H 1800 4350 50  0001 C CNN
-	1    1800 4350
-	0    -1   -1   0   
+P 1950 4000
+F 0 "D_1" V 1996 3920 50  0000 R CNN
+F 1 "D" V 1905 3920 50  0000 R CNN
+F 2 "keebio-parts:Diode_Long" H 1950 4000 50  0001 C CNN
+F 3 "~" H 1950 4000 50  0001 C CNN
+	1    1950 4000
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 4500 2100 4500
-Text GLabel 2100 4500 2    50   Input ~ 0
+Text GLabel 2100 4000 2    50   Input ~ 0
 C0
-Text GLabel 1800 4000 2    50   Input ~ 0
+Text GLabel 1800 4200 2    50   Input ~ 0
 R3
 Text GLabel 3450 1250 0    50   Input ~ 0
 LED
@@ -1348,155 +1323,109 @@ Text GLabel 1700 3150 2    50   Input ~ 0
 SDA
 Text GLabel 1700 3050 2    50   Input ~ 0
 SCL
-Text GLabel 4450 7500 2    50   Input ~ 0
-R4
-Connection ~ 4400 7500
 Wire Wire Line
-	4400 7500 4450 7500
+	3750 7600 3800 7600
 Wire Wire Line
-	4150 7800 4200 7800
+	3750 7500 3750 7600
 Wire Wire Line
-	4150 7700 4150 7800
+	4000 7300 4000 7400
 Wire Wire Line
-	4400 7500 4400 7600
-Wire Wire Line
-	4350 7500 4400 7500
+	3950 7300 4000 7300
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_24_3
 U 1 1 60C9C8F9
-P 4350 7750
-F 0 "MX_24_3" H 4222 7695 60  0000 R CNN
-F 1 "MX-NoLED" H 4222 7769 20  0000 R CNN
-F 2 "MX_Only:MXOnly-2U-Hotswap-ReversedStabilizers" H 3725 7725 60  0001 C CNN
-F 3 "" H 3725 7725 60  0001 C CNN
-	1    4350 7750
+P 3950 7550
+F 0 "MX_24_3" H 3822 7495 60  0000 R CNN
+F 1 "MX-NoLED" H 3822 7569 20  0000 R CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 3325 7525 60  0001 C CNN
+F 3 "" H 3325 7525 60  0001 C CNN
+	1    3950 7550
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_24_2
 U 1 1 60C9C8F3
-P 4200 7550
-F 0 "MX_24_2" H 4233 7773 60  0000 C CNN
-F 1 "MX-NoLED" H 4233 7699 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-NoLED" H 3575 7525 60  0001 C CNN
-F 3 "" H 3575 7525 60  0001 C CNN
-	1    4200 7550
+P 3800 7350
+F 0 "MX_24_2" H 3833 7573 60  0000 C CNN
+F 1 "MX-NoLED" H 3833 7499 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2U-NoLED" H 3175 7325 60  0001 C CNN
+F 3 "" H 3175 7325 60  0001 C CNN
+	1    3800 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 6900 4050 6900
+	6550 6500 6600 6500
 Wire Wire Line
-	4050 6900 4050 7800
+	6550 6400 6550 6500
 Wire Wire Line
-	4050 7800 4150 7800
-Connection ~ 4150 7800
-Text GLabel 6100 7400 2    50   Input ~ 0
-R4
-Connection ~ 6050 7400
+	6800 6200 6800 6300
 Wire Wire Line
-	6050 7400 6100 7400
-Wire Wire Line
-	5800 7700 5850 7700
-Wire Wire Line
-	5800 7600 5800 7700
-Wire Wire Line
-	6050 7400 6050 7500
-Wire Wire Line
-	6000 7400 6050 7400
+	6750 6200 6800 6200
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_44_3
 U 1 1 60CE59CE
-P 6000 7650
-F 0 "MX_44_3" H 5872 7595 60  0000 R CNN
-F 1 "MX-NoLED" H 5872 7669 20  0000 R CNN
-F 2 "MX_Only:MXOnly-2U-Hotswap-ReversedStabilizers" H 5375 7625 60  0001 C CNN
-F 3 "" H 5375 7625 60  0001 C CNN
-	1    6000 7650
+P 6750 6450
+F 0 "MX_44_3" H 6622 6395 60  0000 R CNN
+F 1 "MX-NoLED" H 6622 6469 20  0000 R CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 6125 6425 60  0001 C CNN
+F 3 "" H 6125 6425 60  0001 C CNN
+	1    6750 6450
 	-1   0    0    1   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_44_2
 U 1 1 60CE59D4
-P 5850 7450
-F 0 "MX_44_2" H 5883 7673 60  0000 C CNN
-F 1 "MX-NoLED" H 5883 7599 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-NoLED" H 5225 7425 60  0001 C CNN
-F 3 "" H 5225 7425 60  0001 C CNN
-	1    5850 7450
+P 6600 6250
+F 0 "MX_44_2" H 6633 6473 60  0000 C CNN
+F 1 "MX-NoLED" H 6633 6399 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2U-NoLED" H 5975 6225 60  0001 C CNN
+F 3 "" H 5975 6225 60  0001 C CNN
+	1    6600 6250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 7700 5800 7700
-Connection ~ 5800 7700
-Wire Wire Line
-	5700 7700 5700 6900
-Wire Wire Line
-	5700 6900 5800 6900
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_42_2
 U 1 1 60D0AE66
-P 6600 4850
-F 0 "MX_42_2" H 6633 5073 60  0000 C CNN
-F 1 "MX-NoLED" H 6633 4999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-NoLED" H 5975 4825 60  0001 C CNN
-F 3 "" H 5975 4825 60  0001 C CNN
-	1    6600 4850
+P 6600 4400
+F 0 "MX_42_2" H 6633 4623 60  0000 C CNN
+F 1 "MX-NoLED" H 6633 4549 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2U-NoLED" H 5975 4375 60  0001 C CNN
+F 3 "" H 5975 4375 60  0001 C CNN
+	1    6600 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX_42_3
 U 1 1 60D0AE6C
-P 6750 5050
-F 0 "MX_42_3" H 6622 4995 60  0000 R CNN
-F 1 "MX-NoLED" H 6622 5069 20  0000 R CNN
-F 2 "MX_Only:MXOnly-2U-Hotswap-ReversedStabilizers" H 6125 5025 60  0001 C CNN
-F 3 "" H 6125 5025 60  0001 C CNN
-	1    6750 5050
+P 6750 4600
+F 0 "MX_42_3" H 6622 4545 60  0000 R CNN
+F 1 "MX-NoLED" H 6622 4619 20  0000 R CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 6125 4575 60  0001 C CNN
+F 3 "" H 6125 4575 60  0001 C CNN
+	1    6750 4600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6750 4800 6800 4800
+	6550 4550 6550 4650
 Wire Wire Line
-	6800 4800 6800 4900
-Wire Wire Line
-	6550 5000 6550 5100
-Wire Wire Line
-	6550 5100 6600 5100
-Wire Wire Line
-	6800 4800 6850 4800
-Connection ~ 6800 4800
-Text GLabel 6850 4800 2    50   Input ~ 0
-R2
-Wire Wire Line
-	6550 5100 6350 5100
-Wire Wire Line
-	6350 5100 6350 4700
-Wire Wire Line
-	6350 4700 5700 4700
-Wire Wire Line
-	5700 4700 5700 5100
-Wire Wire Line
-	5700 5100 5800 5100
-Connection ~ 6550 5100
-Text GLabel 6100 4500 2    50   Input ~ 0
+	6550 4650 6600 4650
+Text GLabel 5800 4200 0    50   Input ~ 0
 C4
-Text GLabel 6100 5400 2    50   Input ~ 0
+Text GLabel 5800 5100 0    50   Input ~ 0
 C4
-Text GLabel 6100 6300 2    50   Input ~ 0
+Text GLabel 5800 6000 0    50   Input ~ 0
 C4
-Text GLabel 6100 7200 2    50   Input ~ 0
+Text GLabel 5800 6900 3    50   Input ~ 0
 C4
 Connection ~ 2400 6900
 Connection ~ 3250 6900
 Connection ~ 4950 6900
-Connection ~ 5800 6000
 Connection ~ 4950 6000
 Connection ~ 4150 6000
 Connection ~ 3250 6000
 Connection ~ 4950 5100
 Connection ~ 4150 5100
 Connection ~ 3250 5100
-Connection ~ 5800 4200
 Connection ~ 4950 4200
 Connection ~ 4150 4200
 Connection ~ 3250 4200
@@ -1504,4 +1433,45 @@ Connection ~ 5800 3250
 Connection ~ 4950 3250
 Connection ~ 4150 3250
 Connection ~ 3250 3250
+Wire Wire Line
+	4000 6900 4000 7300
+Wire Wire Line
+	4000 6900 4150 6900
+Connection ~ 4000 7300
+Wire Wire Line
+	3650 7600 3750 7600
+Connection ~ 3750 7600
+Wire Wire Line
+	3500 6600 3500 6700
+Wire Wire Line
+	4400 6600 4400 6500
+Wire Wire Line
+	4400 6500 3900 6500
+Wire Wire Line
+	3900 6500 3900 7050
+Wire Wire Line
+	3900 7050 3650 7050
+Wire Wire Line
+	3650 7050 3650 7600
+Wire Wire Line
+	6800 4350 6800 4450
+Wire Wire Line
+	6750 4350 6800 4350
+Connection ~ 6050 4800
+Text GLabel 6800 4350 2    50   Input ~ 0
+C4
+Connection ~ 6050 5700
+Connection ~ 6050 6600
+Wire Wire Line
+	6550 6500 6050 6500
+Wire Wire Line
+	6050 6500 6050 6600
+Connection ~ 6550 6500
+Text GLabel 6800 6200 2    50   Input ~ 0
+C4
+Wire Wire Line
+	6050 4800 6050 4650
+Wire Wire Line
+	6050 4650 6550 4650
+Connection ~ 6550 4650
 $EndSCHEMATC
